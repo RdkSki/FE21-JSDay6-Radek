@@ -1,73 +1,74 @@
-let employees = `[{
-    "Unique ID": 01,
-    "First Name": "Jack",
-    "Last Name": "Bauer",
-    "Email address": "jack.bauer@gmail.com",
-    "Job Title": "CEO",
-    "Salary": 12500
+let employees = `
+[{
+    "uniqueId": "01",
+    "firstName": "Jack",
+    "lastName": "Bauer",
+    "emailAddress": "jack.bauer@gmail.com",
+    "jobTitle": "CEO",
+    "salary": "12500"
   }, {
-    "Unique ID": 02,
-    "First Name": "Maria",
-    "Last Name": "Pauer",
-    "Email address": "maria.pauer@gmail.com",
-    "Job Title": "assistent",
-    "Salary": 2500
+    "uniqueId": "02",
+    "firstName": "Maria",
+    "lastName": "Pauer",
+    "emailAddress": "maria.pauer@gmail.com",
+    "jobTitle": "assistent",
+    "salary": "2500"
   }, {
-    "Unique ID": 03, 
-    "First Name": "Kate",
-    "Last Name": "Meyer",
-    "Email address": "kate.meyer@gmail.com",
-    "Job Title": "senior analyst",
-    "Salary": 3000
+    "uniqueId": "03", 
+    "firstName": "Kate",
+    "lastName": "Meyer",
+    "emailAddress": "kate.meyer@gmail.com",
+    "jobTitle": "senior analyst",
+    "salary": "3000"
   }, {
-    "Unique ID": 04,
-    "First Name": "John",
-    "Last Name": "Kerry",
-    "Email address": "john.kerry@gmail.com",
-    "Job Title": "analyst", 
-    "Salary": 2500
+    "uniqueId": "04",
+    "firstName": "John",
+    "lastName": "Kerry",
+    "emailAddress": "john.kerry@gmail.com",
+    "jobTitle": "analyst", 
+    "salary": "2500"
   }, {
-    "Unique ID": 05,
-    "First Name": "Mike",
-    "Last Name": "Johnson",
-    "Email address": "mike.johnson@gmail.com",
-    "Job Title": "analyst",
-    "Salary": 2500
+    "uniqueId": "05",
+    "firstName": "Mike",
+    "lastName": "Johnson",
+    "emailAddress": "mike.johnson@gmail.com",
+    "jobTitle": "analyst",
+    "salary": "2500"
   }, {
-    "Unique ID": 06,
-    "First Name": "Martin",
-    "Last Name": "Wallace",
-    "Email address": "martin.wallace@gmail.com",
-    "Job Title":"analyst",
-    "Salary": 2500
+    "uniqueId": "06",
+    "firstName": "Martin",
+    "lastName": "Wallace",
+    "emailAddress": "martin.wallace@gmail.com",
+    "jobTitle":"analyst",
+    "salary": "2500"
   }, {
-    "Unique ID": 07,
-    "First Name": "Michael",
-    "Last Name": "Firani",
-    "Email address": "michael.firani@gmail.com",
-    "Job Title": "senior developer",
-    "Salary": 3000
+    "uniqueId": "07",
+    "firstName": "Michael",
+    "lastName": "Firani",
+    "emailAddress": "michael.firani@gmail.com",
+    "jobTitle": "senior developer",
+    "salary": "3000"
   }, {
-    "Unique ID": 08,
-    "First Name": "Jane",
-    "Last Name": "Kowalski",
-    "Email address": "jane.kowalski@gmail.com",
-    "Job Title": "developer",
-    "Salary": 2500
+    "uniqueId": "08",
+    "firstName": "Jane",
+    "lastName": "Kowalski",
+    "emailAddress": "jane.kowalski@gmail.com",
+    "jobTitle": "developer",
+    "salary": "2500"
   }, {
-    "Unique ID": 09,
-    "First Name": "Angy",
-    "Last Name": "Miller",
-    "Email address": "angy.miller@gmail.com",
-    "Job Title": "developer",
-    "Salary": 2500
+    "uniqueId": "09",
+    "firstName": "Angy",
+    "lastName": "Miller",
+    "emailAddress": "angy.miller@gmail.com",
+    "jobTitle": "developer",
+    "salary": "2500"
   }, {
-    "Unique ID": 10,
-    "First Name": "Jana",
-    "Last Name": "Humelova",
-    "Email address": "bubbles86@seznam.cz",
-    "Job Title": "key accounter",
-    "Salary": 2700
+    "uniqueId": "10",
+    "firstName": "Jana",
+    "lastName": "Humelova",
+    "emailAddress": "bubbles86@seznam.cz",
+    "jobTitle": "key accounter",
+    "salary": "2700"
   }]`
 
 
