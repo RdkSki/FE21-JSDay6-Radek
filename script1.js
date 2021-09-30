@@ -1,19 +1,36 @@
 let mydata = JSON.parse(employees);
 console.table(mydata);
 
-document.getElementById("results").innerHTML = `<table class="table table-stripped table-hover">
-<thead>
-    <tr>
-      <th scope="col">ID</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Email</th>
-      <th scope="col">Job</th>
-      <th scope="col">Salary</th>
-    </tr>
+//splitting into head and body(result) causes a "not so easy to read" table
 
-    </thead>
-    </table>`;
+for (let val of mydata) {
+    document.getElementById("head").innerHTML = `<table table-stripped><thead class="center"><tr>
+    <th scope="col">ID</th>
+    <th scope="col">First</th>
+    <th scope="col">Last</th>
+    <th scope="col">Email</th>
+    <th scope="col">Job</th>
+    <th scope="col">Salary</th>
+    </tr>
+     </thead>`;
+     document.getElementById("results").innerHTML += `<tbody><tr><td>${val.uniqueId} </td>     <td>${val.firstName} </td>     <td>${val.lastName}</td>     <td>${val.emailAddress}</td>     <td>${val.jobTitle}</td>     <td>${val.salary}</td>
+     </tr><hr></tbody>`;
+};
+
+
+// `<table class="table table-stripped table-hover">
+// <thead>
+//     <tr>
+//       <th scope="col">ID</th>
+//       <th scope="col">First</th>
+//       <th scope="col">Last</th>
+//       <th scope="col">Email</th>
+//       <th scope="col">Job</th>
+//       <th scope="col">Salary</th>
+//     </tr>
+
+//     </thead>
+//     </table>`;
 
 
     // creating a table out of json array:
