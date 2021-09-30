@@ -2,18 +2,22 @@ let books = `
 [{
     "title": "Die Magie der Scheibenwelt",
     "author": "Terry Pratchett",
-    "read": "true"
+    "read": "true",
+    "img": "./IMG/terrypratchett.jfif"
 }, {
     "title": "Schäfers Qualen",
     "author": "Georg Haderer",
-    "read": "false"
+    "read": "false",
+    "img": "./IMG/georghaderer.jfif"
 }, {
     "title": "The acid house",
     "author": "Irvine Welsh",
-    "read": "true"
+    "read": "true",
+    "img": "./IMG/irvinewelsh.jfif"
 }, {
     "title": "Die Kunst des Krieges",
-    "author": "Sun Tzu",
-    "read": "false"
+    "author": "Sun Tsu",
+    "read": "false",
+    "img": "./IMG/suntsu.jfif"
 }]
 `
