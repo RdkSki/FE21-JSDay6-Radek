@@ -1,0 +1,85 @@
+let employees = `[{
+    "Unique ID": 01,
+    "First Name": "Jack",
+    "Last Name": "Bauer",
+    "Email address": "jack.bauer@gmail.com",
+    "Job Title": "CEO",
+    "Salary": 12500
+  }, {
+    "Unique ID": 02,
+    "First Name": "Maria",
+    "Last Name": "Pauer",
+    "Email address": "maria.pauer@gmail.com",
+    "Job Title": "assistent",
+    "Salary": 2500
+  }, {
+    "Unique ID": 03, 
+    "First Name": "Kate",
+    "Last Name": "Meyer",
+    "Email address": "kate.meyer@gmail.com",
+    "Job Title": "senior analyst",
+    "Salary": 3000
+  }, {
+    "Unique ID": 04,
+    "First Name": "John",
+    "Last Name": "Kerry",
+    "Email address": "john.kerry@gmail.com",
+    "Job Title": "analyst", 
+    "Salary": 2500
+  }, {
+    "Unique ID": 05,
+    "First Name": "Mike",
+    "Last Name": "Johnson",
+    "Email address": "mike.johnson@gmail.com",
+    "Job Title": "analyst",
+    "Salary": 2500
+  }, {
+    "Unique ID": 06,
+    "First Name": "Martin",
+    "Last Name": "Wallace",
+    "Email address": "martin.wallace@gmail.com",
+    "Job Title":"analyst",
+    "Salary": 2500
+  }, {
+    "Unique ID": 07,
+    "First Name": "Michael",
+    "Last Name": "Firani",
+    "Email address": "michael.firani@gmail.com",
+    "Job Title": "senior developer",
+    "Salary": 3000
+  }, {
+    "Unique ID": 08,
+    "First Name": "Jane",
+    "Last Name": "Kowalski",
+    "Email address": "jane.kowalski@gmail.com",
+    "Job Title": "developer",
+    "Salary": 2500
+  }, {
+    "Unique ID": 09,
+    "First Name": "Angy",
+    "Last Name": "Miller",
+    "Email address": "angy.miller@gmail.com",
+    "Job Title": "developer",
+    "Salary": 2500
+  }, {
+    "Unique ID": 10,
+    "First Name": "Jana",
+    "Last Name": "Humelova",
+    "Email address": "bubbles86@seznam.cz",
+    "Job Title": "key accounter",
+    "Salary": 2700
+  }]`
+
+
+
+
+// Create a JSON file which contains the following details per employee:
+
+// Unique ID
+// First Name
+// Last Name
+// Email address
+// Job Title
+// Salary
+// Fill the JSON file with meaningful data for 10 Employees. Print each employee's details in a table which will look representative and easily readable for the management team.
+
